@@ -7,14 +7,44 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/unfinished" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/finished" />
     </group>
+
+    <item android:title="@string/category">
+        <menu>
+            <item
+                android:id="@+id/very_important"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/very_important" />
+            <item
+                android:id="@+id/important"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/important" />
+            <item
+                android:id="@+id/quite_important"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/quite_important" />
+            <item
+                android:id="@+id/not_important"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/not_important" />
+        </menu>
+    </item>
+
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/app"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/app" />
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/developer" />
+        </menu>
+    </item>
 </menu>

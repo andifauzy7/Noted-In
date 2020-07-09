@@ -10,4 +10,14 @@
     <string name="menu_home">NotedIn</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="unfinished">Unfinished</string>
+    <string name="finished">Finished</string>
+    <string name="very_important">Very Important</string>
+    <string name="important">Important</string>
+    <string name="category">Category</string>
+    <string name="quite_important">Quite Important</string>
+    <string name="not_important">Not Important</string>
+    <string name="about">About</string>
+    <string name="app">App</string>
+    <string name="developer">Developer</string>
 </resources>
